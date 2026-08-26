@@ -22,10 +22,18 @@
                 text-align: center;
                 max-width: 800px;
                 margin: 0 auto;
-                 border: 5px solid black;
+                border: 5px solid black;
                 padding: 16px;
+                display: flex;
             }
 
+            img{
+                height: 80px;
+                width: 80px;
+            }
+            .artigo-autor{
+                font-weight: bold;
+            }
 
         </style>
     </head>
@@ -37,10 +45,12 @@
 
         <main>
             <img src="imagem-blog.webp" alt="">
-            <h2>Organização desde 2024</h2>
-            <p>Este é o protótipo do futuro site da minha organização de atenção e cuidaados psicossociais em direito à vida.</p>
-            <p>por m. tressoldi</p>
-        </main>
+            <div>
+                <h2>Organização desde 2024</h2>
+                <p>Este é o protótipo do futuro site da minha organização de atenção e cuidaados psicossociais em direito à vida.</p>
+                <p class="artigo-autor"></p> por m. tressoldi</p>
+            </div>
+         </main>
         
     </body>
 </html>
